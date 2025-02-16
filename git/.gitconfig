@@ -1,0 +1,8 @@
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[user]
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKfP7Ms/EV8qZe7cOfyMgkcpSZv5K6F81ELXnfpe/mmI
